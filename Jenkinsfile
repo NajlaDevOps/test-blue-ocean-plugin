@@ -8,7 +8,6 @@ pipeline {
           echo 'trying to build'
         }
 
-        sh 'gggggg'
       }
     }
 
