@@ -4,6 +4,11 @@ pipeline {
     stage('build') {
       steps {
         echo 'build completed'
+        retry(count: 3) {
+          echo 'trying to build'
+        }
+
+        sh 'gggggg'
       }
     }
 
