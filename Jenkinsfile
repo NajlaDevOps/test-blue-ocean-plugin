@@ -36,11 +36,5 @@ pipeline {
       }
     }
 
-    stage('notify for new build') {
-      steps {
-        echo 'new build completed succesfuly'
-      }
-    }
-
   }
 }
